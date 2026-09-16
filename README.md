@@ -59,3 +59,7 @@ uv run python scripts/train_continuous.py --config-name continuous_buzz
 Once training is complete (time depends on dataset size and your machine, but should ~10min) the results will be saved in a new folder `outputs/train_continuous/{date}/{time}`. 
 
 The two files you need are `model.json` and `standardize.json`. These both need to be loaded into `JEM_InputBrush` or `JEM_InputBuzz` M4L objects, depending on the type of model you trained. They differ in input audio representation.
+
+## Classifier Training:
+
+You can train classifiers directly in Max4Live within the toolkit. README instructions to reproduce data preprocessing from the paper will appear here soon.
