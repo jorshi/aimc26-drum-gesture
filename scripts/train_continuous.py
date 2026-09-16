@@ -56,7 +56,7 @@ def save_standardize(dataset: ContinuousGestureDataset):
         scaler.save("standardize.json")
 
 
-@hydra.main(version_base=None, config_path="../cfg", config_name="continous")
+@hydra.main(version_base=None, config_path="../cfg", config_name="continuous_lowtom")
 def main(cfg: DictConfig) -> None:
     logger.info(f"Config:\n{cfg}")
     L.seed_everything(cfg.seed, workers=True)

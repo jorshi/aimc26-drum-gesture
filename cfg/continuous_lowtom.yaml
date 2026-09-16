@@ -1,5 +1,5 @@
 defaults:
-  - data: lowtom_continuous_0k
+  - data: lowtom_continuous
   - feature: mel_spectrogram_log
   - model: buzz_rnn
   - loss: bce

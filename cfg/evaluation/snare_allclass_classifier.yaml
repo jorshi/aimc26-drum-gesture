@@ -1,7 +1,0 @@
-models:
-  - path: models/snare_allclass_mfccs_smote.json
-    test_data: dataset/m4l-data/classification-features/aggregrated/snare_allclass_mfccs_test.json
-  - path: models/snare_allclass_mfccs_smote_646464.json
-    test_data: dataset/m4l-data/classification-features/aggregrated/snare_allclass_mfccs_test.json
-  - path: models/snare_allclass_descriptors_smote.json
-    test_data: dataset/m4l-data/classification-features/aggregrated/snare_allclass_descriptors_test.json

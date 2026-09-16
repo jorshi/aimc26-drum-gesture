@@ -1,5 +1,0 @@
-models:
-  - path: models/lowtom_headrim_mfccs_smote.json
-    test_data: dataset/m4l-data/classification-features/aggregrated/lowtom_headrim_mfccs_test.json
-  - path: models/lowtom_head_rim_23-08-2025.json
-    test_data: dataset/m4l-data/classification-features/aggregrated/lowtom_headrim_descriptors_test.json

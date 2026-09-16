@@ -1,7 +1,0 @@
-_target_: drum_gesture.model.GestureRNN
-input_size: 16
-hidden_size: 64
-output_size: 1
-rnn_layers: 1
-mlp_layers: 3
-layer_norm: false
