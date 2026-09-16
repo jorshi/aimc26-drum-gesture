@@ -9,7 +9,7 @@ wheels/
 # Virtual environments
 .venv
 
-# Data
+# Dataset
 dataset/
 
 # Results
@@ -19,3 +19,6 @@ takes/
 
 # MAC OSX
 .DS_Store
+
+# VSCode Specifics
+.vscode/

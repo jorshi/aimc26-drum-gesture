@@ -1,0 +1,37 @@
+defaults:
+  - data: lowtom_continuous_0k
+  - feature: mel_spectrogram_log
+  - model: buzz_rnn
+  - loss: bce
+  - task: continuous_gesture
+  - _self_
+
+hydra:
+  job:
+    chdir: true
+  run:
+    dir: outputs/${hydra.job.name}/${now:%Y-%m-%d}/${now:%H-%M-%S}
+
+data_dir: dataset
+sample_rate: 48000
+
+batch_size: 16
+num_workers: 0
+max_epochs: 250
+learning_rate: 0.001
+accelerator: cpu
+seed: 0
+
+# Held out from the end of each source file. Set to 0 to disable validation, early
+# stopping and best-checkpoint selection, restoring the original last-epoch behaviour.
+val_fraction: 0.2
+# Standard deviation of the random gain augmentation is random_gain/2, in dB. Set to 0
+# to disable augmentation entirely.
+random_gain: 12.0
+# Where random gain augmentation is applied. "audio" scales the waveform and recomputes
+# features; "feature" applies the equivalent transform to the computed features, which is
+# what the Max-side trainer will have to do since it never sees audio.
+gain_domain: audio
+
+patience: 20
+min_delta: 0.0

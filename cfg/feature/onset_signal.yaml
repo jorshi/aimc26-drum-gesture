@@ -1,0 +1,8 @@
+_target_: drum_gesture.features.OnsetSignal
+sample_rate: 48000
+hop_size: 64
+fast_env_attack: 3.0
+fast_env_release: 383.0
+slow_env_attack: 400.0
+slow_env_release: 2205.0
+include_diff: true

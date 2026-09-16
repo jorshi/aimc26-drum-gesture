@@ -1,0 +1,23 @@
+hydra:
+  job:
+    chdir: true
+  run:
+    dir: outputs/${hydra.job.name}/${now:%Y-%m-%d}/${now:%H-%M-%S}
+
+input: dataset/m4l-data/classification-features-104/aggregated_train_features.json
+template: dataset/m4l-data/classification-features/template.json
+instrument: hightom
+labels:
+  - head
+  - rim
+  # - mallet
+  # - rimshot
+# relabel:
+#   - from: rimshot
+#     to: head
+  
+features: mfccs_256
+
+balance:
+  should_balance: false
+  method: smote

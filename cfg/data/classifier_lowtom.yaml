@@ -1,0 +1,5 @@
+files:
+  - m4l-data/classification/lowtom_head_rim_19-08-2025.json
+  - m4l-data/classification/lowtom_head_rim_23-08-2025.json
+  - m4l-data/classification/lowtom_mallet_23-08-2024.json
+  - m4l-data/classification/lowtom_mallet_24-08-2024.json

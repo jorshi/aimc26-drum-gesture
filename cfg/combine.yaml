@@ -1,0 +1,18 @@
+defaults:
+  - data: classifier_snare
+  - _self_
+
+hydra:
+  job:
+    chdir: true
+  run:
+    dir: outputs/${hydra.job.name}/${now:%Y-%m-%d}/${now:%H-%M-%S}
+
+data_dir: dataset
+labels:
+  - Head
+  - Rim
+
+balance:
+  should_balance: true
+  method: smote

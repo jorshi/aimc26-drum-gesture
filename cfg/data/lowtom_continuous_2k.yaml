@@ -1,0 +1,14 @@
+_target_: drum_gesture.data.ContinuousGestureDataset
+num_data: 1000
+audio:
+  - continuous/lowtom_continous_1_2k.wav
+  - continuous/lowtom_continous_2_2k.wav
+  - continuous/lowtom_continous_3null_2k.wav
+  - continuous/lowtom_continous_4_2k.wav
+  - continuous/lowtom_continous_5null_2k.wav
+annotations:
+  - continuous/lowtom_continuous_1.csv
+  - continuous/lowtom_continuous_2.csv
+  - null
+  - continuous/lowtom_continuous_4.csv
+  - null

@@ -1,0 +1,17 @@
+models:
+  - path: models/snare_headrim_descriptors_smote.json
+    test_data: dataset/m4l-data/classification-features/aggregrated/snare_headrim_descriptors_test.json
+  - path: models/snare_headrim_mfccs_smote.json
+    test_data: dataset/m4l-data/classification-features/aggregrated/snare_headrim_mfcc_test.json
+  - path: models/snare_headrim_mfccs_smote_323232.json
+    test_data: dataset/m4l-data/classification-features/aggregrated/snare_headrim_mfcc_test.json
+  - path: models/snare_headrim_rimshot_mfccs_smote.json
+    test_data: dataset/m4l-data/classification-features/aggregrated/snare_headrim_mfcc_test.json
+  - path: models/snare_headrim_adam_2.json
+    test_data: dataset/m4l-data/classification-features/aggregrated/snare_headrim_mfcc_test.json
+  - path: models/snare_headrim_mfccs.json
+    test_data: dataset/m4l-data/classification-features/aggregrated/snare_headrim_mfcc_test.json
+  - path: models/snare_headrim_mfccs_light.json
+    test_data: dataset/m4l-data/classification-features/aggregrated/snare_headrim_mfcc_test.json
+  - path: outputs/train_classifier/2026-04-08/22-15-29/trained_model.json
+    test_data: dataset/m4l-data/classification-features/aggregrated/snare_headrim_mfcc_test.json

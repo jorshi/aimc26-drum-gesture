@@ -1,0 +1,5 @@
+_target_: drum_gesture.features.MelSpectrogram
+sample_rate: 48000
+n_fft: 512
+hop_size: 256
+n_mels: 64

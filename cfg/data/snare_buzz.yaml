@@ -1,0 +1,14 @@
+_target_: drum_gesture.data.ContinuousGestureDataset
+num_data: 1000
+audio:
+  - continuous/snare_buzz_2.wav
+  - continuous/snare_buzz_double.wav
+  - continuous/snare_hits.wav
+  # - continuous/snare_hits_2.wav
+  # - continuous/snare_mallets.wav
+annotations:
+  - continuous/snare_buzz_2-buzz.csv
+  - continuous/snare_buzz_double-buzz.csv
+  - null
+  # - null
+  # - null

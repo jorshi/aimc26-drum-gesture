@@ -1,0 +1,5 @@
+_target_: drum_gesture.model.BuzzRNN
+input_size: 16
+hidden_size: 16
+output_size: 1
+num_layers: 1

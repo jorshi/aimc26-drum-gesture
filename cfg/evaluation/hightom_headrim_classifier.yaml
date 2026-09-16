@@ -1,0 +1,9 @@
+models:
+  - path: models/hightom_headrim_descriptors_smote.json
+    test_data: dataset/m4l-data/classification-features/aggregated/hightom_headrim_descriptors_test.json
+  - path: models/hightom_headrim_mfccs_smote.json
+    test_data: dataset/m4l-data/classification-features/aggregated/hightom_headrim_mfccs_test.json
+  - path: models/hightom_headrim_mfccs_light.json
+    test_data: dataset/m4l-data/classification-features/aggregated/hightom_headrim_mfccs_test.json
+  - path: models/hightom_headrim_mfccs_104_rc.json
+    test_data: dataset/m4l-data/classification-features-104/aggregated/hightom_headrim_mfccs_test.json
